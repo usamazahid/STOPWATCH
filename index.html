@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>STOPWATCH</title>
+	<style type="text/css">
+		.wrapper{
+			width:600px;
+			margin:0 auto;
+			text-align: center;
+		}
+		.counters{
+			font-size:5em;		
+		}
+		.btn{
+			width:20%;
+			height: 30px;
+			margin:5px;
+			border: none;
+			outline: none;
+		}
+		.btn:active{
+			background: #bbbdbf;
+		}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<h1>STOP WATCH</h1>
+	<div class="counters">
+		<span id="min">00</span>
+		<span id="sec">00</span>
+		<span id="msec">00</span>
+	</div>
+	<div class="buttons">
+		<button id="start" class="btn">Start</button>
+		<button id="pause" class="btn">Pause</button>
+		<button id="stop" class="btn">Stop</button>
+	</div>
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
